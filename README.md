@@ -12,19 +12,7 @@ In the digital health and healthtech sectors, extracting structured data from un
 * **Pandas & NumPy** (Data structuring and manipulation)
 * **Regex** (Text preprocessing and noise reduction)
 
-## 📁 Project Structure
-```text
-medical-ner-extractor/
-│
-├── data/                    # Raw medical text datasets
-├── output/                  # Cleaned and exported structured CSV outputs
-├── src/                     # Core source code modules
-│   ├── __init__.py          # Makes src a python package
-│   ├── preprocess.py        # Text cleaning and normalization pipeline
-│   └── model_pipeline.py    # BioBERT model loading and entity extraction
-├── main.py                  # Main execution script
-├── requirements.txt         # Project dependencies
-└── README.md                # Project documentation
+
 Engineering Best Practices & Safety Standards
 Modular Architecture: Strict separation of concerns (SoC) dividing preprocessing logic, model inference, and execution pipelines.
 
